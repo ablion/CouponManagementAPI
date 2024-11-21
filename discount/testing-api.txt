@@ -1,0 +1,21 @@
+Cart-wise example
+
+{
+  "details": "{\"threshold\":100,\"discount\":10}",
+  "type": "cart-wise"
+}
+
+Product-wise example
+
+{
+  "details": "{\"product_id\":1,\"discount\":20}",
+  "type": "product-wise"
+}
+
+BxGy Example
+
+{
+  "details": "{\"buy_products\":[{\"product_id\":1,\"quantity\":2}],\"get_products\":[{\"product_id\":2,\"quantity\":1}],\"repetition_limit\":2}",
+  "type": "bxgy"
+}
+
